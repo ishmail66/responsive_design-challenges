@@ -182,7 +182,7 @@ h2 {
 
 .recommended div{
     width: 150px;
-    height: 220px;
+
 }
 
 .recommended img {
@@ -208,3 +208,58 @@ h2 {
     line-height: 1.25;
     font-size: 15px;
 }
+
+/* mobile/phone */
+
+@media only screen and (max-width: 320px){
+
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .heading{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .byline{
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    .media_links{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .ad_bar{
+        display: none;
+        
+    }
+
+    .storystream{
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    .next_tech{
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    .recommended{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: auto;
+        height:auto;
+        
+    }
+
+}
+
+
+@media
